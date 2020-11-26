@@ -1,2 +1,1 @@
-# google-homepage
-the-odin-project
+This is my attempt at a google homepage clone using basic html and css for The Odin Project.
