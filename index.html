@@ -2,51 +2,51 @@
 <html>
     <head>
         <title>Google</title>
-        <link rel="stylesheet" href="style.css"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
         <header>
             <nav class="top-nav">
                 <ul>
                     <span class="nav-left">
-                        <li>About</li>
-                        <li>Store</li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Store</a></li>
                     </span>
                     <span class="nav-right">
-                        <li>Gmail</li>
-                        <li>Images</li>
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><button class="sign-in" type="button">Sign In</button></li>
                     </span>
                 </ul>
             </nav>
         </header>
-        <main>
-            <div>
-                <img class="google-logo" src="images/googlelogo.png" alt the google logo>
-            </div>
-            <form class="search">
-                <div>
-                    <input class="search-bar" type="search" placeholder="&#x1F50D">
-                </div>
-                <div class="buttons">
-                    <button class="search-button" type="submit">Google Search</button>
-                    <button class="lucky-button" type="button">I'm Feeling Lucky</button>
-                </div>
-                
-            </form>
-        </main>
+        <div class="logo-container">
+            <img class="google-logo" src="./assets/googlelogo.png" alt the google logo>
+        </div>
+        <form> 
+            <input class="search-bar" type="search" placeholder="&#x1F50D" autofocus>               
+            <div class="buttons">
+                <button class="search-button" type="submit">Google Search</button>
+                <button class="lucky-button" type="button">I'm Feeling Lucky</button>
+            </div>         
+        </form>
+        <div class="empty"></div>
         <footer>
             <nav class="bottom-nav">
                 <ul>
                     <span class="foot-left">
-                        <li>Advertising</li>
-                        <li>Business</li>
-                        <li>How Search works</li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">How Search works</a></li>
                     </span>
-                    <li class="foot-center"><img src="images/carbonneutral.png" alt carbon neutral logo> Carbon neutral since 2007</li>
+                    <li class="foot-center"><a href="#"><img src="./assets/carbonneutral.png" alt carbon neutral logo> Carbon neutral since 2007</a></li>
                     <span class="foot-right">
-                        <li>Privacy</li>
-                        <li>Terms</li>
-                        <li>Settings</li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Settings</a></li>
                     </span>
                 </ul>
             </nav>            
